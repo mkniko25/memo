@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+    padding: 0;
+    color: #444;
+    line-height: 150%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+}
+
+/*========================================
+  リンク
+========================================*/
+a,
+a:active,
+a:focus {
+	color: pink;
+}
+a:hover {
+	text-decoration: none;
+}
+/*========================================
+  フォント
+========================================*/
+.num {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+  display: block;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+/*========================================
+  ヘッダー
+========================================*/
+header {
+	margin-bottom: 30px;
+	width: 100%;
+	height: 80px;
+	background: black;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding-left: 15px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 80px; 
+}
+
+header h1 a {
+	color: white;
+	text-decoration: none;
+}
+/*========================================
+  レイアウト
+========================================*/
+.site-width {
+	margin: 0 auto;
+	width: 980px;
+}
+
+#main {
+	float: left;
+	min-height: 600px;
+}
+
+.page-2colum #main {
+  width: 760px;
+}
+
+#contents {
+	overflow: hidden;
+	margin: 20px auto;
+}
+/*========================================
+  サイドバー
+========================================*/
+#sidebar {
+	display: block;
+	float: left;
+	box-sizing: border-box;
+    margin-right: 10px;
+    padding: 15px;
+    min-height: 600px;
+    width: 200px;
+    background: #f6f5f4;
+}
+
+#sidebar .title {
+	text-align: left;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+/*========================================
+  検索エリア
+========================================*/
+.search-title {
+  overflow: hidden;
+  margin: 20px 0;
+  padding: 5px 10px;
+  height: 40px;
+  background: #f6f5f4;
+  line-height: 40px;
+}
+
+.seach-left {
+	float: left;
+}
+
+.seach-right {
+	float: right;
+}
+
+/*========================================
+  ボタン
+========================================*/
+.btn {
+	font-size: 12px;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: white;
+	color: black;
+	max-width: 150px;
+
+	display: inline-block;
+    border: solid 2px black;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.btn:hover {
+	/*text-decoration: none*/
+	background: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+/*========================================
+  フォーム
+========================================*/
+label {
+	display: block;
+}
+
+label.err textarea {
+	background: #f7dcd9;
+}
+
+textarea {
+	margin-bottom: 15px;
+	font-size: 18px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	border: none;
+	background: #f6f5f5;
+	display: block;
+}
+
+input[type="text"] {
+	margin-bottom: 15px;
+	font-size: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+}
+
+select:hover,
+input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+.form-container {
+	margin: 0 auto;
+}
+
+.page-1colum .form-container {
+	margin: 50px auto;
+}
+
+.form {
+	border: none;
+}
+
+.form .btn-container {
+	overflow: hidden;
+}
+
+.form .btn {
+	float: right;
+	margin-left: 5px;
+}
+
+.form .area-msg {
+	color: red;
+}
+
+
+/*========================================
+  テーブル
+========================================*/
+table {
+	border: solid 2px black;
+	width: 100%;
+	margin: 10px auto;
+}
+
+table .btn {
+	padding: 5px 10px;
+}
+
+table .delete .edit {
+	text-align: right;
+	padding-top: 5px;
+}
+
+table td.delete {
+	width: 38px;
+	padding-top: 5px;
+}
+
+table td.edit {
+	padding-top: 5px;
+}
+
+
